@@ -12,6 +12,12 @@ you Home Credit dataset can find this dataset at https://www.kaggle.com/c/home-c
 
  # STEP 1 : 
  
-Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0)
+Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0).
 
+Challenges faced:
+
+* connecting MYSQL client from local machine to a remote server. 
+-sucessfully overcame by changing tht settings of fire wall in remote server  
+
+* learning the linux shell commands. 
 
