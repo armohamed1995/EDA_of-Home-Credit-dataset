@@ -12,7 +12,7 @@ Home Credit dataset can be downloaded from https://www.kaggle.com/c/home-credit-
 
  # STEP 1 : Data Analysis
  
-Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0) and saved it on server. 
+Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0 ,  MYSQL workbench  (6.3.8) and saved it on server. 
 (Operating system of server  ubuntu 18.04.)
 
 Challenges faced:
