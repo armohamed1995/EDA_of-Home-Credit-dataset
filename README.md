@@ -5,19 +5,19 @@ Home Credit strives to broaden financial inclusion for the unbanked population b
 
 While Home Credit is currently using various statistical and machine learning methods to make these predictions, they're challenging Kagglers to help them unlock the full potential of their data.
 
-you Home Credit dataset can find this dataset at https://www.kaggle.com/c/home-credit-default-risk/
+Home Credit dataset can be downloaded from https://www.kaggle.com/c/home-credit-default-risk/
 
 # PROJECT SCOPE :
 # To identify defaulter and predict wheather the client will repay the loan or not.
 
  # STEP 1 : 
  
-Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0).
+Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench  (mysql  Ver 5.7.28-0) and saved it on server running on OS ubuntu 18.04.
 
 Challenges faced:
 
 * connecting MYSQL client from local machine to a remote server. 
--sucessfully overcame by changing tht settings of fire wall in remote server  
+-sucessfully overcame by changing the settings of fire wall and enabling SSH in remote server  
 
-* learning the linux shell commands. 
+* learning the git bash commands. 
 
