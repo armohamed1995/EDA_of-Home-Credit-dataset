@@ -8,7 +8,7 @@ While Home Credit is currently using various statistical and machine learning me
 you Home Credit dataset can find this dataset at https://www.kaggle.com/c/home-credit-default-risk/
 
 # PROJECT SCOPE :
-# tTo identify defaulter and predict wether the custumer will repay the loan or not.
+# To identify defaulter and predict wether the custumer will repay the loan or not.
 
  # STEP 1 : 
  
