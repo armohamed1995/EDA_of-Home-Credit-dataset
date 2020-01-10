@@ -1,0 +1,21 @@
+
+
+
+ 
+
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Laborers';  
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Salesstaff';  
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Core staff';  
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Managers'; 
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Drivers '; 
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='High skill tech staff';  
+SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Accountants';  
+
+
+SELECT occupation_type, count(*) FROM application_train WHERE LOAN_TYPE='Cash loans' group by OCCUPATION_TYPE;
+
+\Copy (SELECT count(*) FROM application_train WHERE LOAN_TYPE='Revolving loans' AND OCCUPATION_TYPE='Laborers') To '/home/caaiadmin/home_credit/env/kaggle_datatest.csv' With CSV DELIMITER ',';
+    
+  
+
+
