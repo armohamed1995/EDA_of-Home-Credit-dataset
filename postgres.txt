@@ -1,0 +1,20 @@
+select own_car, count(*) from application_train group by own_car;
+
+select count(*) from application_train where own_car = 'Y' and car_age >=0;
+
+select count(*) from application_train where family_status = 'Married' and tot_child >0;
+
+select count(*) from application_train where family_status = 'Married' and tot_child >0 and target = 0;
+
+select count(*) from application_train where family_status and tot_child;
+
+SELECT tot_child, count(*) FROM application_train WHERE family_status = 'Married' group by tot_child;
+ SELECT car_age, count(*) FROM application_train WHERE own_car= 'Y' group by car_age;
+
+\copy (select count(*) from application_train where family_status = 'Married' and tot_child >0 and target = 0) To '/home/caaiadmin/home_credit/env/kaggle_data/query_data/child_target.csv' With CSV DELIMITER ',';
+
+
+
+
+
+
