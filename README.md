@@ -10,7 +10,7 @@ Home Credit dataset can be downloaded from https://www.kaggle.com/c/home-credit-
 # PROJECT SCOPE :
 # To identify defaulter and predict wheather the aplicants loan approved or  not to approved.
 
- # STEP 1 : Data Analysis
+ # STEP 1 : creating DDL (Data Defination Language)
  
 Renamed the columns of the data and identified the data type of each column and converted all downloaded csv files into relational database, using MYSQL and MYSQL workbench and saved it on server. 
 ( (mysql  Ver 5.7.28-0, MYSQL workbench 6.3.8, Operating system of server  ubuntu 18.04.))
@@ -21,4 +21,9 @@ Challenges faced:
 -sucessfully overcame by changing the settings of fire wall and enabling SSH in remote server  
 
 * learning the git bash commands. 
+
+# STEP 2:   Ran queries on Sql, Python  on home credit dataset.
+
+Insights mined : 
+
 
