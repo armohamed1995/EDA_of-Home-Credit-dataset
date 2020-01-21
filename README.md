@@ -24,7 +24,7 @@ Challenges faced:
 
 # DATA INSIGHTS : 
 
-1. Sample size columns Rows 221, There are total 8% of loan rejections in the sample.
+1. There are 221 Rows, There are total 8% of loan rejections in the sample.
 2. There are 291057 previous applicants, 16454 new applicants. Total number of applicants 307511
 3. chances of new applications getting rejected is more if Median of total income is 135000   
 4. new applicants are getting higher credit amount 534672 (MEDIAN)
