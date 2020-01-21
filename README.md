@@ -22,8 +22,15 @@ Challenges faced:
 
 * learning the git bash commands. 
 
-# STEP 2:   Ran queries on Sql, Python  on home credit dataset.
+# DATA INSIGHTS : 
 
-Insights mined : 
+1. Sample size columns 307511, Rows 122There are total 8% of loan rejections in the sample.
+2. There are 291057 previous applicants, 16454 new applicants. Total applicants 307511
+3. chances of new applications getting rejected is more if Median of total income is 135000   
+4. new applicants are getting Credit amhigher credit amount 534672 (MEDIAN)
+5. 3, 8, 14, 16, 18  docs occur frequently. (applied apriori)
+
+# Note : as per our understanding of Data two seprate algorithms should be build one for new applicants and other for new applicants.
+
 
 
