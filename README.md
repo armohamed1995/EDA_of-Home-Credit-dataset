@@ -30,7 +30,7 @@ Challenges faced:
 4. new applicants are getting higher credit amount 534672 (MEDIAN)
 5. 3, 8, 14, 16, 18  docs occur frequently. (applied apriori)
 
-# Note : as per our understanding of Data two seprate algorithms should be build one for new applicants and other for new applicants.
+# Note : as per our understanding of Data two seperate algorithms should be build one for new applicants and other for new applicants.
 
 
 
