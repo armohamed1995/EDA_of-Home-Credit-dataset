@@ -28,7 +28,7 @@ Challenges faced:
 2. There are 291057 previous applicants, 16454 new applicants. Total number of applicants 307511
 3. chances of new applications getting rejected is more if Median of total income is 135000   
 4. new applicants are getting higher credit amount 534672 (MEDIAN)
-5. 3, 8, 14, 16, 18  docs occur frequently. (applied apriori)
+5. Documents 3, 8, 14, 16, 18 occur frequently. (applied apriori)
 6. Doc3 tells us some information about own_reality and emp_phone(The code for this insight is homecredit1.3.ipynb file)
 # Note : as per our understanding of Data two seperate algorithms should be build one for new applicants and other for new applicants.
 
